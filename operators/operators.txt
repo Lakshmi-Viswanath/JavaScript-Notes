@@ -1,0 +1,43 @@
+Arithmetic operators
+1. + 
+2. -
+3. *
+4. /
+5. %
+6. **
+
+---------------------------------------------------------------
+What values are falsy?
+1.null
+2.undefined
+3.""
+4.+0, -0, NaN
+5.falsy
+Apart from these all values are truthy
+
+---------------------------------------------------------------
+Short Circuting
+AND gate 
+if first value is truthy return the second value
+
+OR gate 
+1. if first value is ture return first value 
+2. if first value is false return second
+
+---------------------------------------------------------------
+Special Numbers - +0, -0, NaN , Infinity , -Infinity
+NaN - not a number to show a invalid numbers
+
+NaN is not equal to NaN
+
+---------------------------------------------------------------
+Equality operators
+1. ==
+2. ===
+1. Both check for type.
+2. == check for type , if type are same it calls === otherwise converts the type and does comparision.
+3. === checks for type of operand , if they are different it returns false else if types are same then compares values.
+4. If one type is number and other is string it converts the string to number
+
+
+            

@@ -1,0 +1,25 @@
+3 ways to create a variable 1.var 2.let 3.const
+
+semicolon - each statement is end with semicolon.its not mandatory but is recomended.
+
+Rules for variables creation
+1. can contain small alphabets, capital alphabets, digits and underscore(_), dollar($)
+2. can not contain spave and special characters
+3. give meaniful name 
+4. can not start with digit but it can be inbetween.
+5. can not have keywords.
+
+
+What all values we can store in Js?
+1.Number 2.String 3.Boolean 4.Symbol 5.object 6.null(empty value) 7.undefined(something not defined can be defined later)
+
+Primitive and  Non primitive datatype
+Primitive - Types which are atomin in nature. eg:number
+Non Primitive - Types which are a composition of other types. eg:ojects 
+
+Special characters
+\n , \t etc
+
+Comments
+1. Single line - //
+2. Multiline - /* ggggggggggggggggggg */
