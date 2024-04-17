@@ -1,0 +1,26 @@
+HOF - Higher order functions
+Functions which takes another functions as argument is called higher order functions or return a function.
+
+Array functions
+1. Arrays are also custom objects in JS.
+2. Index of the element is the key and element itself is the value.
+
+---------------------------------------------------------------------------
+map function
+1.map is a higher order fucntion available with arrays . It takes function as the argument 
+2.it returns an array in which every value is actually populated by calling function f 
+with original array element as argument
+
+------------------------------------------------------------------------
+filter function
+1. it is also a hof and also loops over the array element. 
+2. the argument function f which we have to pass inside filter should always return a boolen 
+otherwise it will convert to boolen
+3. if the output of the function call is true it stores the original element ina new array otherwise does 
+not add this element to the array.
+
+-------------------------------------------------------------------------
+reduce function
+1. also an hof which takes a function f as a argument.
+2. reduce will pass the element to the function f and accumulate the result of further function calls with 
+the previous result

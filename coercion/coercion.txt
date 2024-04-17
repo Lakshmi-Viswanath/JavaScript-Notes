@@ -1,0 +1,16 @@
+Coercion- Type Conversion
+We can convert the input for operations. It can be done in 2 ways
+1.Explict type casting - manual conversion
+2.Implicit type casting (coersion) - based on certain rules automatically convert
+
+Abstract Operations
+set of algorithms present in ecma script but not available for usage in the ecma script.It 
+aids the programer to help the with documentation.
+
+Different Abstract operations
+ToPrimitive
+ToString
+.
+.
+.
+.
