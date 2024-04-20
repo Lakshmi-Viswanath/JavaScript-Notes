@@ -1,5 +1,6 @@
 HOF - Higher order functions
 Functions which takes another functions as argument is called higher order functions or return a function.
+Callback is a function that is passed as a parameter to higher order function
 
 Array functions
 1. Arrays are also custom objects in JS.
@@ -24,3 +25,9 @@ reduce function
 1. also an hof which takes a function f as a argument.
 2. reduce will pass the element to the function f and accumulate the result of further function calls with 
 the previous result
+
+Callback problems
+1. callback hell - nested callbacks making code hard to read and debug leading to pyramid structure.
+2. inversion of control - trust issues means callback will be called or not executed. Passing of control of your 
+function to someones else implemented function.
+
