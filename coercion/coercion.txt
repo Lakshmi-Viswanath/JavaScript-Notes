@@ -16,3 +16,17 @@ ToString
 .
 
 ToPrimitive
+ToPrimitive converts an object to a non object type.
+1. syntax - ToPrimitive(input , prefered type)
+2. Prefered type can be 1.default
+                        2.string
+                        3.number
+3. if prefered type is default it is converted to number
+4. toString() returns always a string
+5. valueOf() returns always a value
+
+Addition + operator
+1. if any operand is string converts both into string
+
+Unary - operator
+1. if any operand is number converts both into number
