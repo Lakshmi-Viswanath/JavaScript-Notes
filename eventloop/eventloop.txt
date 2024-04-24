@@ -1,0 +1,7 @@
+Java Script is single threaded and synchronus in nature
+Java Script has some native code and some is run in the run time 
+
+JS has a callstack, multiple queue , run time environment and event queue.
+The event loop is an infinite loop which keeps checking for if the call stact us empty.
+JS never gives priority to asynchronus code over its native code and global code execution. 
+Means JS first executes its native JS code and then executes the asynchronus code.

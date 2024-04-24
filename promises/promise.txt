@@ -1,0 +1,25 @@
+1. Promises solve inversion of control and readability enhancers
+2. Promises are objects that get returened immediately when called.
+3. it acts as a placeholder for the data we want to get.
+4. promise objects can be attached with the functionality we want to execute 
+when future task is done.
+5. once future task is done promises will automatically execute the attached functions.
+
+How to create a promise?
+Promise are synchronoua are in nature.
+It ca be in 3 states
+1. pending - its default state with work in progress.
+2. fullfilled - completed its execution
+3. Rejected - operation was not successful
+
+Syntax
+new promise(function (resolve, reject){
+    //some task
+})
+
+when executor callback executes resolve function the promise goes to fulfilled state, 
+when reject function is called it goes to rejected state otherwise remains in the pending 
+state.
+with whatever argument we call resolve or reject , the value property gets assigned with it,
+and value of pending  state is undefined.
+The executor function is synchronus in nature.
