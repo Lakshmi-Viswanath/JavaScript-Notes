@@ -23,3 +23,13 @@ state.
 with whatever argument we call resolve or reject , the value property gets assigned with it,
 and value of pending  state is undefined.
 The executor function is synchronus in nature.
+
+1. Also microtask exits during the promise exection . 
+2. The fulfill handlers and rejection handlers are 
+executed in the microtask queue. 
+3. After the callstack is empty the event loop executes rhe functions
+which are in the microtask queue and are given more priority that the macrotask queue/callback queue.
+4. first priority is the native JS code then the tasks in microtask queue and then the macrotask 
+queue for the execution. 
+5. we also have a promise ooject which has the the state, calue and the 
+fulfill handler array ang rejection handler array.
