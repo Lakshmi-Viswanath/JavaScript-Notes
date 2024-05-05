@@ -21,5 +21,6 @@ console.log(obj);
 obj.__proto__; //member function will be displayed
 obj.__proto__.__proto__ //Object methods will be displayed
 obj.__proto__.__proto__.constructor; //Object function will be displayed
+console.log(obj.__proto__ === product.prototype); //true
 
 
